@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backGround{
+    background-image: url('https://diamondpearl.pokemon.com/assets/bonuses/pokeball.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed; 
+    width: 99vw;
+    height: 99vh;
+    z-index: -1;
+}
+
+.forma{
+   /*  display: flex;
+    width: 90vw;
+    flex-wrap: wrap; 
+    text-decoration: none;
+    justify-content: center; */
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+

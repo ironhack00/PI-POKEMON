@@ -1,0 +1,28 @@
+.nav{
+    background-color:red;
+    border: black 2px solid;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    border: black 4px;
+    text-decoration: none;
+    border: solid black 2px; 
+}
+
+.li{
+    background-color: green;
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid grey;
+    
+}
+
+.li:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
